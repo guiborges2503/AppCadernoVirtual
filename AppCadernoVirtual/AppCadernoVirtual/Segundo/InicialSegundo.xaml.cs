@@ -49,61 +49,66 @@ namespace AppCadernoVirtual.Segundo
 
         private void BtnFisica_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new FisicaSegundo());
         }
 
         private void BtnQuimica_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new QuimicaSegundo());
         }
 
         private void BtnBiologia_Clicked(object sender, EventArgs e)
         {
+            Navigation.PushAsync(new BiologiaSegundo());
 
         }
 
         private void BtnFilosofia_Clicked(object sender, EventArgs e)
         {
+            Navigation.PushAsync(new FilosofiaSegundo());
 
         }
 
         private void BtnEtica_Clicked(object sender, EventArgs e)
         {
+            Navigation.PushAsync(new EticaSegundo());
 
         }
 
         private void BtnProgWeb_Clicked(object sender, EventArgs e)
         {
+            Navigation.PushAsync(new ProgWebSegundo());
 
         }
 
         private void BtnBancoDados_Clicked(object sender, EventArgs e)
         {
+            Navigation.PushAsync(new BancodeDadosSegundo());
 
         }
 
         private void BtnProgMobile_Clicked(object sender, EventArgs e)
         {
+            Navigation.PushAsync(new ProgMobileSegundo());
 
         }
 
         private void BtnDesenvolvimento_Clicked(object sender, EventArgs e)
         {
+            Navigation.PushAsync(new DesenvolvimentoSegundo());
 
         }
 
-        private void BtnTCC_Clicked(object sender, EventArgs e)
-        {
-
-        }
-
+       
         private void BtnQualidade_Clicked(object sender, EventArgs e)
         {
+            Navigation.PushAsync(new QualidadeSegundo());
 
         }
 
         private void BtnSistemasEmbarcados_Clicked(object sender, EventArgs e)
         {
+            Navigation.PushAsync(new SistemasEmbarcadosSegundo());
 
         }
     }

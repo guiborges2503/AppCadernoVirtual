@@ -4,8 +4,8 @@
              x:Class="AppCadernoVirtual.Terceiro.PortuguesTerceiro"
              Title="3º E.M. - Português" >
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="3º E.M. - Português"
+        <StackLayout Padding="15">
+            <Label Text="Tópicos:"
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
                 FontSize="Title" />

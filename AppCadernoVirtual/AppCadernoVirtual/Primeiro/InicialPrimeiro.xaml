@@ -4,6 +4,7 @@
              x:Class="AppCadernoVirtual.Primeiro.InicialPrimeiro"
              Title="1º E.M. - Matérias" >
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout>
             <!--Label: um texto
                 Text: texto que aparece na label
@@ -36,5 +37,6 @@
             <Button Text="Técnicas de Programação de Algoritmos" x:Name="BtnAlgoritmos" Clicked="BtnAlgoritmos_Clicked" />
             <Button Text="Banco de Dados I" x:Name="BtnBancoDeDados" Clicked="BtnBancoDeDados_Clicked" />
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

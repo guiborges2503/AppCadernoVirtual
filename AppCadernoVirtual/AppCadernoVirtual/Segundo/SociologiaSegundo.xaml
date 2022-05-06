@@ -4,8 +4,8 @@
              x:Class="AppCadernoVirtual.Segundo.SociologiaSegundo"
              Title="2º E.M. - Sociologia" >
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="2º E.M. - Sociologia"
+        <StackLayout Padding="15">
+            <Label Text="Tópicos:"
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
                 FontSize="Title" />

@@ -3,16 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppCadernoVirtual.MainPage"
              Title="Índice de Matérias do E.M." >
-             <!-- Title: texto que aparece no topo, na parte da navegação -->
+            
     
-    <!-- StackLayout: para fazer os elementos ficarem um encima do outro -->
+    
     <ScrollView>
         <StackLayout>
-        <!-- Button: botao. Text: texto que aparece no botao. x:Name: nome para usar na programação. Clicked: método que é chamado quando clica nele -->
-        <!-- O resto dos comentários está só na pagina inicial da tela das matérias do primeiro -->
-        <Button Text="Primeiro Ano" x:Name="BtnPrimeiro" Clicked="BtnPrimeiro_Clicked" />
-        <Button Text="Segundo Ano" x:Name="BtnSegundo" Clicked="BtnSegundo_Clicked" />
-        <Button Text="Terceiro Ano" x:Name="BtnTerceiro" Clicked="BtnTerceiro_Clicked" />
-    </StackLayout>
+
+            <Button Text="Primeiro Ano" x:Name="BtnPrimeiro" Clicked="BtnPrimeiro_Clicked" BackgroundColor="#188A64"/>
+            <Button Text="Segundo Ano" x:Name="BtnSegundo" Clicked="BtnSegundo_Clicked" BackgroundColor="#188A64"/>
+        <Button Text="Terceiro Ano" x:Name="BtnTerceiro" Clicked="BtnTerceiro_Clicked" BackgroundColor="#188A64"/>
+            <Image Source = "https://cdn.discordapp.com/attachments/932461822483763320/973604866582794250/download.png"/>
+
+        </StackLayout>
     </ScrollView>
 </ContentPage>
